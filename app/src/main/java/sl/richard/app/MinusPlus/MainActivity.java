@@ -56,11 +56,11 @@ public class MainActivity extends AppCompatActivity {
         scoreSystem = new ScoreSystem();
 
 
-        MobileAds.initialize(getApplicationContext(),"ca-app-pub-8994583403734197/2941839266");
+        MobileAds.initialize(getApplicationContext(),"ca-app-pub-xxxxxxx");
         //views
         AdView adView = (AdView) findViewById(R.id.adView);
         //AdRequest adRequest = new AdRequest.Builder().addTestDevice("3AE95FC9A8447EFC74AF14E86DB29DA1").build();
-        AdRequest adRequest = new AdRequest.Builder().addTestDevice("3AE95FC9A8447EFC74AF14E86DB29DA1").build();
+        AdRequest adRequest = new AdRequest.Builder().addTestDevice("xxxxx").build();
         assert adView != null;
         adView.loadAd(adRequest);
 
